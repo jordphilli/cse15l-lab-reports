@@ -3,7 +3,7 @@
 ## Error 1: Infinite Loop
 ![diff](MarkdownDiff.png)
 [infinite loop](InfiniteLoop.md)
-![symptom]()
+![symptom](output of runing InfiniteLoop.md with og MarkParse)
 The infinite loop was caused by the code searching for something that does not exist since there is no index of it. To solve this, we added if statements to account for instances where the index of a parntheses or bracket outputted to -1 because it was not there. 
 ## Error 2: No Brackets
 ![diff](MarkdownDiff.png)
