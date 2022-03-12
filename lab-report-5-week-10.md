@@ -5,7 +5,7 @@ I used the diff command on the results of running a bash loop.
 ## Bug 1:
 Line 212 of the files is different, which refers to test 194: 
 ![bug1](Bug1.png)
-The expected output should be [url], but my version of Markdownparse did not count this as a valid link. This is because my code does not account for the "\" character which makes the next character a part of the string in the name of the link. 
+The expected output should be [url], but my version of Markdownparse did not count this as a valid link. This is because my code does not account for the forward slash character which makes the next character a part of the string in the name of the link. 
 Code to be edited: 
 ![mine](mine.png)
 
